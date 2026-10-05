@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Hash Calculator v 0.1 - 5 oct 2026 - By eanyx (eanyx123@gmail.com)</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QRadioButton" name="md5_radioButton">
