@@ -130,67 +130,6 @@ void MainWindow::on_comparePushButton_clicked()
     }
 }
 */
-/*
-
-
-void MainWindow::on_sha3_224radioButton_clicked()
-{
-    algo = QCryptographicHash::Sha3_224;
-}
-
-
-
-void MainWindow::on_sha3_256_radioButton_clicked()
-{
-    algo = QCryptographicHash::Sha3_256;
-}
-
-
-
-
-void MainWindow::on_sha3_384_radioButton_clicked()
-{
-    algo = QCryptographicHash::Sha3_384;
-}
-
-
-
-
-void MainWindow::on_sha3_512_radioButton_clicked()
-{
-    algo = QCryptographicHash::Sha3_512;
-}
-
-
-
-void MainWindow::on_keccak_512_radioButton_clicked()
-{
-    algo = QCryptographicHash::Keccak_512;
-}
-*/
-
-/*
-void MainWindow::on_comparePushButton_clicked()
-{
-    QString verify = "";
-    verify = this->ui->verifyLineEdit->text().toUpper();
-
-    this->ui->verifyLineEdit->setText(verify);
-
-
-    if (verify == fileChecksum)
-    {
-        this->ui->verifyLineEdit->setText("<font color=\"#2E821A\">Verify OK</font>");
-        this->ui->verifyLineEdit->show();
-    }
-    else
-    {
-        this->ui->verifyLineEdit->setText("<font color=\"#FF0000\">Verify not OK</font>");
-        this->ui->verifyLineEdit->show();
-    }
-}
-*/
-
 
 void MainWindow::on_sha1RadioButton_clicked()
 {
@@ -220,5 +159,35 @@ void MainWindow::on_sha2384RadioButton_clicked()
 void MainWindow::on_sha212RadioButton_clicked()
 {
     algo = QCryptographicHash::Sha512;
+}
+
+
+void MainWindow::on_sha3_224RadioButton_clicked()
+{
+        algo = QCryptographicHash::Sha3_224;
+}
+
+
+void MainWindow::on_sha3_256RadioButton_clicked()
+{
+     algo = QCryptographicHash::Sha3_256;
+}
+
+
+void MainWindow::on_sha3_384RadioButton_clicked()
+{
+     algo = QCryptographicHash::Sha3_384;
+}
+
+
+void MainWindow::on_sha3_512RadioButton_clicked()
+{
+    algo = QCryptographicHash::Sha3_512;
+}
+
+
+void MainWindow::on_keccak512_RadioButton_clicked()
+{
+     algo = QCryptographicHash::Keccak_512;
 }
 

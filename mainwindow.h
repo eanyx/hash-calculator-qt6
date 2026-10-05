@@ -34,6 +34,16 @@ private slots:
 
     void on_sha212RadioButton_clicked();
 
+    void on_sha3_224RadioButton_clicked();
+
+    void on_sha3_256RadioButton_clicked();
+
+    void on_sha3_384RadioButton_clicked();
+
+    void on_sha3_512RadioButton_clicked();
+
+    void on_keccak512_RadioButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

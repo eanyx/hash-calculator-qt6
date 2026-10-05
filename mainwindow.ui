@@ -126,7 +126,7 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>220</y>
+      <y>215</y>
       <width>111</width>
       <height>21</height>
      </rect>
@@ -185,6 +185,71 @@
     </property>
     <property name="text">
      <string>SHA2-512</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="sha3_224RadioButton">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>190</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SHA3-224</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="sha3_256RadioButton">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>221</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SHA3-256</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="sha3_384RadioButton">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>250</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SHA3-384</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="sha3_512RadioButton">
+    <property name="geometry">
+     <rect>
+      <x>249</x>
+      <y>276</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SHA3-512</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="keccak512_RadioButton">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>190</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Keccak-512</string>
     </property>
    </widget>
   </widget>
