@@ -32,8 +32,8 @@
      <rect>
       <x>23</x>
       <y>150</y>
-      <width>1051</width>
-      <height>21</height>
+      <width>1161</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="value">
@@ -43,7 +43,7 @@
    <widget class="QPushButton" name="filehashButton">
     <property name="geometry">
      <rect>
-      <x>1061</x>
+      <x>1191</x>
       <y>78</y>
       <width>121</width>
       <height>30</height>
@@ -58,7 +58,7 @@
      <rect>
       <x>21</x>
       <y>78</y>
-      <width>1021</width>
+      <width>1161</width>
       <height>21</height>
      </rect>
     </property>
@@ -68,7 +68,7 @@
      <rect>
       <x>22</x>
       <y>42</y>
-      <width>1021</width>
+      <width>1161</width>
       <height>21</height>
      </rect>
     </property>
@@ -76,22 +76,22 @@
    <widget class="QPushButton" name="filePushButton">
     <property name="geometry">
      <rect>
-      <x>1060</x>
+      <x>1190</x>
       <y>40</y>
-      <width>191</width>
+      <width>121</width>
       <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>Choose a file to Hash</string>
+     <string>Choose a file</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="onComparelineEdit">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>22</x>
       <y>113</y>
-      <width>1021</width>
+      <width>1161</width>
       <height>21</height>
      </rect>
     </property>
@@ -99,7 +99,7 @@
    <widget class="QPushButton" name="onComparePushButton">
     <property name="geometry">
      <rect>
-      <x>1062</x>
+      <x>1192</x>
       <y>110</y>
       <width>121</width>
       <height>31</height>
@@ -112,7 +112,7 @@
    <widget class="QPushButton" name="cancelButton">
     <property name="geometry">
      <rect>
-      <x>1190</x>
+      <x>1320</x>
       <y>80</y>
       <width>61</width>
       <height>31</height>
@@ -140,7 +140,7 @@
      <rect>
       <x>150</x>
       <y>190</y>
-      <width>81</width>
+      <width>91</width>
       <height>16</height>
      </rect>
     </property>
@@ -153,7 +153,7 @@
      <rect>
       <x>150</x>
       <y>220</y>
-      <width>81</width>
+      <width>91</width>
       <height>16</height>
      </rect>
     </property>
@@ -166,7 +166,7 @@
      <rect>
       <x>150</x>
       <y>250</y>
-      <width>81</width>
+      <width>91</width>
       <height>16</height>
      </rect>
     </property>
@@ -179,7 +179,7 @@
      <rect>
       <x>150</x>
       <y>280</y>
-      <width>81</width>
+      <width>91</width>
       <height>16</height>
      </rect>
     </property>
@@ -190,9 +190,9 @@
    <widget class="QRadioButton" name="sha3_224RadioButton">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>260</x>
       <y>190</y>
-      <width>81</width>
+      <width>91</width>
       <height>21</height>
      </rect>
     </property>
@@ -203,9 +203,9 @@
    <widget class="QRadioButton" name="sha3_256RadioButton">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>260</x>
       <y>221</y>
-      <width>81</width>
+      <width>91</width>
       <height>16</height>
      </rect>
     </property>
@@ -216,9 +216,9 @@
    <widget class="QRadioButton" name="sha3_384RadioButton">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>260</x>
       <y>250</y>
-      <width>81</width>
+      <width>91</width>
       <height>16</height>
      </rect>
     </property>
@@ -229,9 +229,9 @@
    <widget class="QRadioButton" name="sha3_512RadioButton">
     <property name="geometry">
      <rect>
-      <x>249</x>
+      <x>260</x>
       <y>276</y>
-      <width>81</width>
+      <width>91</width>
       <height>20</height>
      </rect>
     </property>
@@ -242,9 +242,9 @@
    <widget class="QRadioButton" name="keccak512_RadioButton">
     <property name="geometry">
      <rect>
-      <x>360</x>
-      <y>190</y>
-      <width>91</width>
+      <x>369</x>
+      <y>194</y>
+      <width>101</width>
       <height>16</height>
      </rect>
     </property>
@@ -259,7 +259,7 @@
      <x>0</x>
      <y>0</y>
      <width>1315</width>
-     <height>22</height>
+     <height>23</height>
     </rect>
    </property>
   </widget>
