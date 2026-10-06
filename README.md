@@ -25,7 +25,7 @@ By eanyx (eanyx123@gmail.com)
 
 Compilation :
 
-git clone https://github.com/eanyx/hash-calculator
+git clone https://github.com/eanyx/hash-calculator-qt6.git 
 
 For Linux:
 	
