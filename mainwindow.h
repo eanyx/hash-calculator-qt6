@@ -46,6 +46,8 @@ private slots:
 
     void on_cancelPushButton_clicked();
 
+    void on_onComparePushButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

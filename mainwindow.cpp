@@ -62,7 +62,7 @@ void MainWindow::on_filehashButton_clicked()
             this->ui->progressBar->setMaximum(progress_max);
             this->ui->progressBar->reset();
             this->ui->progressBar->show();
-            this->ui->cancelButton->show();
+            this->ui->cancelPushButton->show();
 
             QCryptographicHash::Algorithm hash_alg = algo;
             QCryptographicHash hash(hash_alg);
@@ -81,14 +81,14 @@ void MainWindow::on_filehashButton_clicked()
 
 
             this->ui->progressBar->hide();
-            this->ui->cancelButton->hide();
+            this->ui->cancelPushButton->hide();
 
             if (!cancel_calculation) {
                 this->ui->hashResultLineEdit->setText(fileChecksum);
             }
 
             this->ui->progressBar->hide();
-            this->ui->cancelButton->hide();
+            this->ui->cancelPushButton->hide();
             file.close();
         }
     }
@@ -105,8 +105,8 @@ void MainWindow::on_md5_radioButton_clicked()
     algo = QCryptographicHash::Md5;
 }
 
-/*
-void MainWindow::on_comparePushButton_clicked()
+
+void MainWindow::on_onComparePushButton_clicked()
 {
     QString verify = "";
     verify = this->ui->verifyLineEdit->text().toUpper();
@@ -125,7 +125,7 @@ void MainWindow::on_comparePushButton_clicked()
         this->ui->verifyLabel->show();
     }
 }
-*/
+
 
 void MainWindow::on_sha1RadioButton_clicked()
 {
@@ -186,7 +186,3 @@ void MainWindow::on_keccak512_RadioButton_clicked()
 {
      algo = QCryptographicHash::Keccak_512;
 }
-
-
-
-
