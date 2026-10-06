@@ -44,6 +44,8 @@ private slots:
 
     void on_keccak512_RadioButton_clicked();
 
+    void on_cancelPushButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
