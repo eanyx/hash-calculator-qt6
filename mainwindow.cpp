@@ -109,7 +109,7 @@ void MainWindow::on_md5_radioButton_clicked()
 void MainWindow::on_onComparePushButton_clicked()
 {
     QString verify = "";
-    verify = this->ui->verifyLineEdit->text().toUpper();
+    verify = this->ui->verifyLineEdit->text().toUpper().trimmed();
 
     this->ui->verifyLineEdit->setText(verify);
 
