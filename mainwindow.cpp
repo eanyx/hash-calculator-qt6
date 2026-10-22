@@ -20,7 +20,7 @@ MainWindow::~MainWindow()
 }
 
 QString fileName=NULL;
-QCryptographicHash::Algorithm algo = QCryptographicHash::Md5;
+QCryptographicHash::Algorithm algo = QCryptographicHash::Sha256;
 bool cancel_calculation;
 QByteArray fileChecksum;
 
@@ -67,7 +67,6 @@ void MainWindow::on_filehashButton_clicked()
 
             QCryptographicHash::Algorithm hash_alg = algo;
             QCryptographicHash hash(hash_alg);
-
 
             cancel_calculation = false;
 
@@ -145,6 +144,11 @@ void MainWindow::on_sha2256RadioButton_clicked()
       algo = QCryptographicHash::Sha256;
 }
 
+void MainWindow::on_sha2256RadioButton_toggled(bool checked)
+{
+    algo = QCryptographicHash::Sha256;
+}
+
 
 void MainWindow::on_sha2384RadioButton_clicked()
 {
@@ -187,3 +191,5 @@ void MainWindow::on_keccak512_RadioButton_clicked()
 {
      algo = QCryptographicHash::Keccak_512;
 }
+
+

@@ -48,6 +48,8 @@ private slots:
 
     void on_onComparePushButton_clicked();
 
+    void on_sha2256RadioButton_toggled(bool checked);
+
 private:
     Ui::MainWindow *ui;
 };
