@@ -44,10 +44,10 @@ For Windows:
 	
 Or command line build:
 
-	mkdir build
+    mkdir build
     cd build
     cmake
-	make
+    make
 
 Launch:
 
