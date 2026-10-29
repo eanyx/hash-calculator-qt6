@@ -5,5 +5,5 @@ To do list:
 - Fix Compare button : done
 
 - Add blake algorithm
-- set Default radio button on sha2-256
+- set Default radio button on sha2-256 : done
 
